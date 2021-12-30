@@ -1,0 +1,39 @@
+package com.srccodes.example;
+
+public class Math {
+
+	public static void main(String[] args) {
+		
+		Math ver = new Math();
+		
+		int add = ver.add(10, 5);
+		
+		double mul=ver.mul(12, 12);
+		
+		double div = ver.div(25, 5);
+		
+		System.out.println(add);
+		System.out.println(mul);		
+		System.out.println(div);
+	}
+	
+	public int add(int a, int b) {
+		
+		/*
+		 * a=6; b=7; System.out.println(a+b);
+		 */
+			return a+b;
+	}
+	
+public double mul(double a, int b) {
+		
+return a*b;
+			
+	}
+public double div(double a, int b) {
+	
+return a/b;
+			
+	}
+	
+}
